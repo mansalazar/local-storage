@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Storage Demo</title>
+    <link rel="stylesheet" href="site.css" type="text/css" />
+  </head>
+  <body>
+    <header>
+      <h1>Web Storage Demo</h1>
+      <button id="cart">
+        <span id="cartItems">0</span>
+      </button>
+    </header>
+    <main>
+      <section id="products" class="productContainer"></section>
+    </main>
+    <footer>
+      <p>&copy; 2018 - Man Salazar</p>
+      <a id="scrollToTop">Return to Top ^</a>
+    </footer>
+    <div id="modal">
+        <div id="modalHeader">
+          <h2>Your Cart:</h2>
+          <button id="closeModal"></button>
+        </div>
+        <section id="cartProducts" class="productContainer"></section>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
